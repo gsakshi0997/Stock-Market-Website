@@ -1,0 +1,269 @@
+
+{
+  background-image: url("1.jpg");
+  background-attachment: scroll;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+#head
+{
+  text-align:center;
+    width:100%;
+  height:100px;
+  background-color:#ffffff;
+	color:#3333ff;
+	font-family:Arial Black;
+font-size:70px;
+
+}
+#foot
+{
+  text-align:center;
+  position:relative;
+  bottom:0;
+  background-color:#ffffff;
+ }
+.topnav {
+    background-color:src(1.jpg);
+    overflow: hidden;
+	text-align:center;
+	position : relative;
+	top:-90px;
+
+	}
+/* Style the links inside the navigation bar */
+.topnav a {
+   
+    display: block;
+    color: #000000;
+background-color:#99d6ff;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+	font-family:Times New Roman;
+}
+
+/* Change the color of links on hover */
+.topnav a:hover {
+    background-color: #ff944d;
+    color: black;
+}
+
+.sidenav
+{
+	position : relative;
+	bottom: 20px;
+	
+    background-color: #e0e0d1;
+   
+	text-align:center;
+}
+p {
+  max-width: 560px;
+  padding-bottom: 30px;
+  border-bottom: 1px solid #eee;
+  margin-bottom: 30px;
+  font-size: 18px;
+  line-height: 2;
+  color: #222;
+}
+
+.button {
+  background: #76B3FA;
+  border-radius: 100px;
+  padding: 20px 60px;
+  color: #fff;
+  text-decoration: none;
+  font-size: 1.45em;
+  margin: 0 15px;
+}
+@-webkit-keyframes active { 
+  0% {transform: scale(1,1);}
+  90% {transform: scale(.9,.88);}
+  100% {transform: scale(.92,.9);}
+}
+
+keyframes active { 
+  0% {transform: scale(1,1);}
+  90% {transform: scale(.9,.88);}
+  100% {transform: scale(.92,.9);}
+}
+
+/* Hover state animation keyframes below */
+
+
+
+
+/* Hover state animation applied here */
+.button:hover { 
+  -webkit-animation: hover 1200ms linear 2 alternate;
+  animation: hover 1200ms linear 2 alternate;
+}
+
+/* Active state animation applied here */
+.button:active {
+  -webkit-animation: active 1200ms ease 1 alternate;
+  animation: active 1200ms ease 1 alternate; 
+  background: #5F9BE0;
+}
+
+
+
+.besidenav {
+	position:relative;
+	left:400px;
+	bottom:400px;
+  width:700px;
+	}
+
+
+
+#famstocks{
+position: relative;
+left: 1100px;
+bottom: 500px;
+text-align: center;
+}
+
+#belownav
+{
+position:relative;
+top:-1050px;
+left:120px;
+
+}
+#calci
+{
+position:relative;
+top:-350px;
+left:10px;
+background-color: #bbc1cc;
+width: 400px;
+height: 500px;
+text-align: center;
+}
+button{
+width: 50px;
+}
+
+#caltab
+{
+position:relative;
+top:-750px;
+}
+#form
+{
+position:relative;
+left:700px;
+top:-500px;
+width:1000px;
+height:500px;
+}
+#login
+{
+position:relative;
+left:900px;
+top:-250px;
+}
+#side1
+{
+font-size:25px;
+color:white;
+text-align:center;
+width:1500px;
+position:relative;
+left:350px;
+top:-450px;
+}
+#side4
+{
+font-size:25px;
+color:black;
+text-align:center;
+width:2000px;
+position:relative;
+left:700px;
+top:-750px;
+}
+#stats
+{
+position:relative;
+left:400px;
+top:-400px;
+}
+#stats2
+{
+position:relative;
+left:1350px;
+top:-1000px;
+}
+#musthavestockstable
+{
+position:relative;
+left:500px;
+top:-600px;
+width:1200px;
+font-family:Times New Roman;
+font-size:22px;
+color:white;
+}
+.image
+{
+position:relative;
+left:-797px;
+top:-97px;
+}
+#profile
+{
+  position: relative;
+  top:-200px;
+  font-size:22px;
+  color:"black";
+}
+.pro
+{
+  position: relative;
+  top:-200px;
+  font-size:22px;
+  color: "black";
+}
+.img
+{
+  position: relative;
+  top:-850px;
+  right:-700px;
+}
+.buy
+{
+  position: relative;
+  top:-400px;
+  left:700px;
+  color:"white";
+}
+.sell
+{
+  position: relative;
+  top:-300px;
+  left:700px;
+  color:"white";
+}
+.cart
+{
+  position: relative;
+  top:-300px;
+  left:150px;
+}
+.money
+{
+  position: relative;
+  top:-300px;
+  left:550px;
+}
+.loginn
+{
+  position:relative;
+  top:-50px;
+  left:-1000px;
+}
