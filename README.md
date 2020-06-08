@@ -1,1 +1,2 @@
 # Stock-Market-Website
+Undergrad Project: A replica of a stock market website wherein a user can login/register and view stocks and prices of a particular company and buy/sell them as per his/her convenience. It has other features such as calculator for easy calculations, cart to view most recent purchases, inventory to display the stocks that a particular user has along with a provision to add more balance (funds) into his/her account.
